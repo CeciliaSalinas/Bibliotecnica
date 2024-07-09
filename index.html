@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+<script defer src="https://code.jquery.com/jquery-3.7.1.slim.min.js" ></script>
+<script defer src="eventos.js"></script>
+</head>
+<body> 
+    <div id="cursor" ></div>
+
+   <header class="header">
+
+   <h1 class="h1"> <a href="#inicio" class="a" title=""></a></h1>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a href="#inicio" class="a" title="Inicio">Inicio</a></li>
+                <li class="li"><a href="#bibliotecnica" class="a" title="Bibliotécnica">Bibliotécnica</a></li>
+                <li class="li"><a href="#membresia" class="a" title="Membresía">Membresía</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--dentro de esta sección colocar la imagen de portada-->
+        <div class="seccion" id="inicio">
+           <div class="portada"> 
+                <div class="portada"><img src="" alt="" class="img"></div>    
+            </div>
+         
+            <section class="seccion titulo">
+                <h2 class="h2">Bibliotécnica</h2>
+                <h3 class="h3">Data de software</h3>
+                <!--<p class="p">Un proyecto de: una estudiante.</p>-->
+            </section>
+        
+        </div>
+
+        <section class="seccion" id="bibliotecnica">
+
+                <div class="grid">
+                    <article class="article">
+                        <a class="a" href="#" title="Libros" >
+                            <figure class="figure" >
+                                <img src="img/sharingArticleBluejnkp.svg" alt="Imagen" class="img" loading="lazy">
+                            </figure>                    
+                        </a>
+                    </article>
+                
+                    <article class="article">
+                        <p class="p">La BTV (bibliotéca técnica virtual)  es un espacio donde consultar la bibliografía utilizada en la tecnicatura
+                            de Desarrollo de software. <br>
+                            ¿ Que podés encontrar? Libros, apuntes, tesis y mucha data para las desarrolladoras y los desarrolladores. 
+                            </p>
+                            <a href="bibliotecnica.html">
+                            <input type="text">
+                            <button type="button" class="btnBiblio" id="btnBuscar" onclick="buscarLibros()">Buscar libros</button>
+                            </a>
+                    </article>
+                </div>
+
+        </section>
+
+        <section class="seccion">
+            <button id="boton" onclick="mostrar();"><h2 class="h2">Tu membresía</h2></button>
+            <div class="div" id="membresia" >
+            
+            <form action="suscripcion.php" class="form" id="form" method="post">
+                <!--datos-->
+                <div><input type="text" class="input" id="nombre" name="nombre" placeholder="Tu nombre"/></div>
+                <div><input type="text" class="input" id="apellido" name="apellido" placeholder="Tu apellido" />  </div>                
+                <div> <input type="email" class="input" id="email" name="email" placeholder="Tu correo electrónico"> </div>
+
+                <div>
+                    <p>Tu Provincia</p>
+                    <select id="provincia" name="provincia" class="provincia">   
+                        <option value="s">Santa Fe</option>
+                        <option value="e">Entre Rios</option>
+                        <option value="c">Córdoba</option>               
+                    </select>
+                    </div>
+                
+                <p>Formatos de bibliografías</p>
+                           
+                <div ><input type="radio" class="radio" id="html" name="libros" value="l"><label for="html">Libros</label></div>
+                <div><input type="radio" class="radio" id="html" name="libros" value="d"> <label for="html">Documentos</label></div>   
+                <div> <p>Cuotas</p>
+                    <input type="number" class="number" id="cuotas" name="cuotas" min="1" max="12"> </div>
+                
+                    <div><input type="checkbox" class="checkbox" name="estudiante" value="HTML" ><label for="estudiante"> ¿ Sos estudiante ?</label></div>
+
+               <div><textarea class="txtarea" name="mensaje" rows="" cols="">Dejá tu consulta. </textarea></div>
+                    
+               <div><button type="button" class="boton">Suscribirme</button></div> 
+                <div><button id="boton" class="btnOcultar"><p>Ocultar formulario</p></button></div>
+            </form>
+            </div>
+        </section>
+
+    </main>
+
+        <footer class="footer">
+            <span class="span">Educación en movimiento.</span>
+        </footer>
+
+    <script src="eventos.js" ></script>
+</body>
+</html>
