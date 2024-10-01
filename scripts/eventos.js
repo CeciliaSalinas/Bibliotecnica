@@ -10,7 +10,7 @@ Una vez mostrada la lista; al hacer clic en uno de los autores, deberemos mostra
 
 function mostrar(){
     document.getElementById('membresia').style.display = 'block';
-}
+} 
 
 
 //ej js asincrónico : buscar libros según titulo o palabra ingresada 

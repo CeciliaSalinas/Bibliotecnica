@@ -7,9 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="styles/estilos.css">
 <script defer src="https://code.jquery.com/jquery-3.7.1.slim.min.js" ></script>
-<script defer src="eventos.js"></script>
+<script defer src="scripts/eventos.js"></script>
 </head>
 <body> 
     <div id="cursor" ></div>
@@ -21,7 +21,9 @@
             <ul class="ul">
                 <li class="li"><a href="#inicio" class="a" title="Inicio">Inicio</a></li>
                 <li class="li"><a href="#bibliotecnica" class="a" title="Bibliotécnica">Bibliotécnica</a></li>
-                <li class="li"><a href="#membresia" class="a" title="Membresía">Membresía</a></li>
+                <li class="li"><a href="registroUsuario.html" class="a" title="Membresía">Registrate</a></li>
+                <li class="li"><a href="#" class="a" title="Membresía">Iniciar sesión</a></li>
+                <li class="li"><a href="#" class="a" title="Membresía">R</a></li>
             </ul>
         </nav>
     </header>
@@ -53,7 +55,7 @@
                     </article>
                 
                     <article class="article">
-                        <p class="p">La BTV (bibliotéca técnica virtual)  es un espacio donde consultar la bibliografía utilizada en la tecnicatura
+                        <p class="p">La BTV (bibliotéca técnica virtual)  es un espacio donde consultar bibliografía utilizada en la tecnicatura
                             de Desarrollo de software. <br>
                             ¿ Que podés encontrar? Libros, apuntes, tesis y mucha data para las desarrolladoras y los desarrolladores. 
                             </p>
@@ -66,12 +68,12 @@
 
         </section>
 
-        <section class="seccion">
+        <!-- <section class="seccion">
             <button id="boton" onclick="mostrar();"><h2 class="h2">Tu membresía</h2></button>
             <div class="div" id="membresia" >
             
             <form action="suscripcion.php" class="form" id="form" method="post">
-                <!--datos-->
+                
                 <div><input type="text" class="input" id="nombre" name="nombre" placeholder="Tu nombre"/></div>
                 <div><input type="text" class="input" id="apellido" name="apellido" placeholder="Tu apellido" />  </div>                
                 <div> <input type="email" class="input" id="email" name="email" placeholder="Tu correo electrónico"> </div>
@@ -100,14 +102,13 @@
                 <div><button id="boton" class="btnOcultar"><p>Ocultar formulario</p></button></div>
             </form>
             </div>
-        </section>
-
+        </section> -->
     </main>
 
         <footer class="footer">
             <span class="span">Educación en movimiento.</span>
         </footer>
 
-    <script src="eventos.js" ></script>
+    <script src="scripts/eventos.js" ></script>
 </body>
 </html>
