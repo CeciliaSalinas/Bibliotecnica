@@ -18,37 +18,50 @@
 
 }
 
-.header{
+
+.header {
     width: 100%;
     min-width: 5em;
-    padding:  2em 1.2em ;
-
+    padding: 2em 1.2em;
     font-family: var(--tipografiaTitular);
-
+    
+    /* Cambiar el diseño del flexbox */
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
-
 }
+
+
 .header .a{
     text-decoration: none;
     color: #000000;
     font-size: 1.2em;
     font-weight: 400;
+    text-transform: uppercase;
+
+    
 }
 .header .h1{
     color: #000000;
 }    
-.header .nav{  
-    
-}
-.header .ul{
+
+/* .header .nav .ul{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+   background-color: #86aad4;
+} */
 
+.header .nav .ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
 }
 .header .li{
     margin: 0 1em;
@@ -65,13 +78,14 @@
 .seccion{
     width: 100%;
     min-width: 90vh;
-    margin: 1em 0;
-    padding: 2em;
+    margin: 0;
+    padding: 0;
 
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 .seccion .titulo{
@@ -94,14 +108,14 @@
 .seccion .h2{
     font-family: var(--tipografiaTitular);
     font-weight: 500;
-    font-size: 6em;
+    font-size: 6.5em;
     align-items: center;
     line-height: 1em;
 
 }
 .seccion .h3{
     font-family: var(--tipografiaTitular);
-    font-size: 4.5em;
+    font-size: 5em;
     font-weight: 320;
   
 }
@@ -119,13 +133,16 @@
 .seccion .grid{
     width: 100%;
     max-width: 50em;
-    margin: 1em 0;
+    margin:  0;
     
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(10rem, 1fr) );;
     gap: 3em;
+
+    
 }
 .seccion .article{
+    padding: 1em;
     width: 100%;
     min-height: 20vh;
 
@@ -135,7 +152,7 @@
     align-items: center; 
 
     position: relative;
-    
+ 
 }
 
 .article .btnBiblio{
@@ -219,11 +236,10 @@
 
 }
 .footer{
-    background-color: #86aad4;
+    /* background-color: #86aad4; */
     text-align: center;
     font-family: var(--tipograPrincipal);
-    font-size: 1em;
-    font-weight: 300;
+    font-weight: 400;
 }
 @keyframes aparece {
     from{
