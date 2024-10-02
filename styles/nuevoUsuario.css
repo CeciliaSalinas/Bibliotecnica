@@ -15,11 +15,22 @@
     padding: 10px 20px;
     background: #f4f7f8;
     border-radius: 8px;
+
+
+    border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+		          	0 10px 10px rgba(0,0,0,0.22);
+	  position: relative;
+	  overflow: hidden;
+	  width: 768px;
+	  max-width: 100%;
+	  min-height: 480px;
   }
   
   h1 {
     margin: 0 0 30px 0;
     text-align: center;
+    
   }
   
   input[type="text"],
@@ -35,7 +46,7 @@
   textarea,
   select {
     background: rgba(255,255,255,0.1);
-    border: none;
+    /* border: none; */
     font-size: 16px;
     height: auto;
     margin: 0;
@@ -46,6 +57,10 @@
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
+
+
+    border-radius: 20px;
+    border: 1px solid transparent;
   }
   
   input[type="radio"],
@@ -59,19 +74,40 @@
     border-radius: 2px;
   }
   
-  button {
+  /* button {
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color: #4bc970;
+    background-color: goldenrod;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
     width: 100%;
-    border: 1px solid #3ac162;
+    border: 1px solid goldenrod;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
     margin-bottom: 10px;
+  } */
+
+  button {
+    border-radius: 20px;
+    border: 1px solid transparent;
+    /* background-color: #FF4B2B; */
+    background-color: goldenrod;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 100%;
+    
+  }
+
+  button a{
+    text-decoration: none;
+    color: #FFF;
   }
   
   fieldset {
