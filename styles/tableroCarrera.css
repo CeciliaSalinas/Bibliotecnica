@@ -57,6 +57,7 @@ main{
     border: 1px solid goldenrod;
     border-radius: 4px;
     transition: all 400ms ease;
+    color: black;
 }
 
 .card .contenido a:hover{
