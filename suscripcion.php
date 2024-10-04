@@ -1,20 +1,4 @@
 
-El nombre debe tener al menos 3 caracteres, ninguno de ellos numérico.
-El apellido debe tener al menos 2 caracteres, ninguno de ellos numérico.
-Validar que se haya elegido alguna de las opciones del radio button.
-Validar que el mail no esté vacío.
-Validar que el campo de cuotas es un número.
-
-
-El script debe calcular el precio de la suscripción. 
-El precio base de la misma es de $1000, y aplican las siguientes modificaciones:
-Si la cantidad de cuotas es 1, tiene un 5% de descuento.
-Si la cantidad de cuotas del pago es mayor a 6, tiene un 10% de recargo.
-Si es fuera de nuestra provincia, tiene $200 de recargo.
-Si es estudiante, tiene un 15% de descuento.
-Todos los descuentos y recargos se aplican sobre el precio base.
-El script debe mostrar el precio base, todos los descuentos y recargos a aplicar, y el precio final.
-
 <?php
 
 //guardarlos valores que recibo por POST
