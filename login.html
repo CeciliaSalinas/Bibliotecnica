@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/estilos.css">
 </head>
 <body>
     <div class="container" id="container">
@@ -26,7 +27,7 @@
 
         <div class="form-container sign-in-container">
             <form action="#" method="post">
-                <h1>Iniciar sesión 📚</h1>
+                <h1>Iniciar sesión </h1>
                 <div class="social-container">
                       <!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
@@ -35,7 +36,7 @@
                 <!-- <span>or use your account</span> -->
                 <input type="email" placeholder="Email" id="usuario"/>
                 <input type="password" placeholder="Contraseña" id="password"/>
-                <a href="restablecerPass.html">¿Olvidaste tu contraseña?</a>
+                <a href="restablecerPass.html" style="color: #333;">¿Olvidaste tu contraseña?</a>
                  <button class="ghost" id="signIn" onclick="ingreso();"><a href="home.html"> Iniciar sesión</a></button>
             </form>
         </div>
@@ -49,7 +50,7 @@
                 </div> -->
                 <div class="overlay-panel overlay-right">
                     <h1>Hola, Dev!</h1>
-                    <p>Registrate en bibliotécnica ingresando tus datos.</p>
+                    <p style="font-size: .5em;">Registrate en bibliotécnica ingresando tus datos.</p>
                     <button class="ghost" id="signUp"><a href="nuevoUsuario.html">Registrarme</a> </button>
                 </div> 
             </div>
@@ -59,9 +60,9 @@
 
 </main>
 
-    <footer class="footer">
-        <span class="span">Educación en movimiento.</span>
-    </footer>
+<footer class="footer">
+    <p>Educación en movimiento 📚</p>
+</footer> 
 
 <script src="scripts/login.js" ></script>
 </body>
