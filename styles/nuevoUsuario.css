@@ -13,12 +13,12 @@
     max-width: 300px;
     margin: 10px auto;
     padding: 10px 20px;
-    background: #f4f7f8;
+    background: #d2c2b0;
     border-radius: 8px;
-    margin-top: 5em;
+    margin-top: 1em;
 
 
-    border-radius: 10px;
+    /* border-radius: 10px; */
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 		          	0 10px 10px rgba(0,0,0,0.22);
 	  position: relative;
@@ -60,48 +60,24 @@
     outline: 0;
     padding: 15px;
     width: 100%;
-    background-color: #e8eeef;
+    background-color:#ece2d7 ;
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
 
-    border-radius: 18px;
+    border-radius: 8px;
     border: 1px solid transparent;
   }
   
-  input[type="radio"],
-  input[type="checkbox"] {
-    margin: 0 4px 8px 0;
-  }
-  
-  select {
-    padding: 6px;
-    height: 32px;
-    border-radius: 2px;
-  }
-  
-  /* button {
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: goldenrod;
-    font-size: 18px;
-    text-align: center;
-    font-style: normal;
-    border-radius: 5px;
-    width: 100%;
-    border: 1px solid goldenrod;
-    border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-    margin-bottom: 10px;
-  } */
+
 
   button {
     border-radius: 20px;
     border: 1px solid transparent;
     /* background-color: #FF4B2B; */
     /* background-color: #519259; */
-    background-color: #d2c2b0;;
+    background-color: #333;;
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 200;
@@ -120,18 +96,18 @@
   }
   
   fieldset {
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     border: none;
   }
   
   legend {
     font-size: 1.4em;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   
   label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
   
   label.light {
@@ -139,19 +115,7 @@
     display: inline;
   }
   
-  .number {
-    background-color: #5fcf80;
-    color: #fff;
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    font-size: 0.8em;
-    margin-right: 4px;
-    line-height: 30px;
-    text-align: center;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-    border-radius: 100%;
-  }
+ /*  */
   
   @media screen and (min-width: 480px) {
   

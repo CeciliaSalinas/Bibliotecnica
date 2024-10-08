@@ -15,7 +15,7 @@
 }
 main{
     width: 100%;
-     height: 80vh; 
+     /* height: 80vh;  */
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -31,7 +31,7 @@ main{
 
 .card{
     width: 100%;
-    margin: 15px;
+    margin: 18px;
     border-radius: 6px;
     /* border: 1px solid transparent; */
     overflow: hidden;
@@ -50,7 +50,7 @@ main{
 } 
 .card img{
     width: 100%;
-    /* height: 150px; */
+     /* height: 15em;  */
 }
 
 .card .contenido{
@@ -70,7 +70,7 @@ main{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     /* border: 1px solid goldenrod; */
      border-radius: 6px; 
     transition: all 400ms ease;
@@ -87,8 +87,8 @@ main{
    /*  color: #d2c2b0; */
     color: black;
 }
-.footer{
-    /* background-color: #F4EEA9;  */
+/* .footer{
+
     text-align: center;
     font-family: var(--tipograPrincipal);
     font-weight: 400;
@@ -101,4 +101,4 @@ main{
 .footer p{
     margin-top: 1.2em;
     letter-spacing: 1px;
-}
+} */
