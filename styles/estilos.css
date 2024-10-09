@@ -98,7 +98,7 @@ body{
     width: 100%;
    animation: aparece 2s ease 1 both;
    height: 20em;
-   margin-bottom: 2em;
+   /* margin-bottom: 2em; */
    
 }
 .seccion .portada{
