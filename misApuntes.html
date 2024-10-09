@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis apuntes</title>
     <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="styles/misApuntes.css">
 </head>
 <body>
     <header class="header">
@@ -21,8 +22,33 @@
                  </ul>
              </nav>
          </header>
+         <main>
+            <div id="wrapper">
+
+                <form id="paper" method="get" action="">           
+                    <div id="margin">Título: <input id="title" type="text" name="title"></div>
+                    <textarea placeholder="" id="text" name="text" rows="4" style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; "></textarea>  
+                    <br>
+                    <input id="button" type="submit" value="Create">                  
+                </form>
+            </div>
+
+            <div id="wrapper">
+
+                <form id="paper" method="get" action="">            
+                    <div id="margin">Título: <input id="title" type="text" name="title"></div>
+                    <textarea placeholder="" id="text" name="text" rows="4" style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; "></textarea>  
+                    <br>
+                    <input id="button" type="submit" value="Create">                    
+                </form>            
+            </div>
+
+         </main>
+
          <footer class="footer">
             <p>Educación en movimiento 📚</p>
-        </footer> 
+        </footer>
+
+        <script src="scripts/misApuntes.js"></script>
 </body>
 </html>
