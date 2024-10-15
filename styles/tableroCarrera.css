@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}  */
+} */ 
 
 .header .a{
     text-decoration: none;
@@ -53,9 +53,20 @@ main{
      /* height: 15em;  */
 }
 
+.card .libro {
+    width: 100%;
+      height: 15em;  
+}
+
+
+.card img{
+    width: 100%;
+     /* height: 15em;  */
+}
 .card .contenido{
     padding: 15px;
     text-align: center;
+    
 }
 
 .card .contenido p{
@@ -67,6 +78,18 @@ main{
     font-weight: 400;
 }
 
+ .btnDescarga , .btnLectura{
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #d2c2b0;
+    color: #fff;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: .5em; 
+    margin-bottom: .5em;
+    /* width: 50%; */
+}
 .card .contenido a{
     text-decoration: none;
     display: inline-block;
