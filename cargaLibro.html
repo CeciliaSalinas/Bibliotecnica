@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotécnica</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="styles/cargaLibro.css">
+    <link rel="stylesheet" href="styles/tableroCarrera.css">
+</head>
+<body>
+    <header class="header">
+
+        <h1 class="h1"> <a href="#inicio" class="a" title=""></a></h1>
+             <nav class="nav">
+                 <ul class="ul">
+                     <li class="li"><a href="home.html" class="a" title="Inicio">Inicio</a></li>
+                      <!-- <li class="li"><a href="tableroCarrera.html" class="a" title="Bibliotécnica">Bibliotécnica</a></li>  -->
+                     <!-- <li class="li"><a href="misApuntes.html" class="a" title="Mis apuntes">Mis apuntes</a></li> -->
+                     <!-- <li class="li"><a href="historialDeLectura.html" class="a" title="Bibliotécnica">Hiistorial de lecturas</a></li> -->
+                     <li class="li"><a href="login.html" class="a" title="Salir">Salir</a></li>
+     
+                 </ul>
+             </nav>
+         </header>
+
+         <main>
+            <div class="contenedorTabla">
+            <div>
+                <form>
+                   <!--  <h3>Buscar libro</h3> -->
+                    <div>
+                        <input type="search" id="buscar">
+                        <button type="button" id="boton-buscar" class="boton-buscar" onclick="buscar_libros()">
+                            Buscar libro
+                        </button>
+                    </div>
+                  </form>
+
+                  <div id="respuesta">
+                      <p>Pulse el botón para buscar libros de un autor</p>
+                  </div>
+
+
+            </div>
+            <br>
+            <div>
+            <table id="" class="cargaLibros">
+                <thead>
+                  <tr>
+                    <th>Titulo</th>
+                    <th>Autor</th>
+                    <th>Editorial</th>
+                    <th>Año publicación</th>
+                    <th>Materia</th>
+                    <th></th>
+                    <th></th>   
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fundamentos de programación para principiantes</td>
+                    <td>Llamas y Zavala</td>
+                    <td>Navi Inc.</td>
+                    <td>2003</td>
+                    <td><select name="" id="">
+                        <option value="">Programación</option>
+                        <option value="">Ingeniería de software</option>
+                        <option value="">Base de datos</option>
+                        <option value="">Tecnología de la información</option>
+                    </select></td>
+                <td> <button>Agregar</button></td>
+                    <td><button>Cancelar</button></td>      
+                  </tr>
+
+                  <tr>
+                    <td>Algoritmos y programación en pseudocódigo</td>
+                    <td>
+                      <span>Juan Lagos</td>
+                    <td><span>Brusella</span></td>
+                    <td>2016</td>
+                    <td><select name="" id="">
+                        <option value="">Programación</option>
+                        <option value="">Ingeniería de software</option>
+                        <option value="">Base de datos</option>
+                        <option value="">Tecnología de la información</option>
+                    </select></td>
+                <td> <button>Agregar</button></td>
+                    <td><button>Cancelar</button></td>      
+                  </tr>
+
+                  <tr>
+                    <td>Fundamento de programción</td>
+                    <td>
+                      <span>Luisina Aguilar</span></td>
+                    <td><span>Shantis</span></td>
+                    <td><span>2010</span></td>
+                    <td><select name="" id="">
+                        <option value="">Programación</option>
+                        <option value="">Ingeniería de software</option>
+                        <option value="">Base de datos</option>
+                        <option value="">Tecnología de la información</option>
+                    </select></td>
+                <td> <button>Agregar</button></td>
+                    <td><button>Cancelar</button></td>      
+                  </tr>
+
+                  <tr>
+                    <td>Pseudocodigo para principiantes</td>
+                    <td>
+                      <span>Carlos Pez</span></td>
+                    <td><span>Editorial Málaga</span></td>
+                    <td><span>1998</span></td>
+                    <td><select name="" id="">
+                        <option value="">Programación</option>
+                        <option value="">Ingeniería de software</option>
+                        <option value="">Base de datos</option>
+                        <option value="">Tecnología de la información</option>
+                    </select></td>
+                <td> <button>Agregar</button></td>
+                    <td><button>Cancelar</button></td>      
+                  </tr>
+
+                  <tr>
+                    <td>Metodología de la programación orientada a objetos</td>
+                    <td>
+                      <span>Miguel Román</span></td>
+                    <td><span>Buffa</span></td>
+                    <td><span>2015</span></td>
+                    <td><select name="" id="">
+                        <option value="">Programación</option>
+                        <option value="">Ingeniería de software</option>
+                        <option value="">Base de datos</option>
+                        <option value="">Tecnología de la información</option>
+                    </select></td>
+                <td> <button>Agregar</button></td>
+                    <td><button>Cancelar</button></td>      
+                  </tr>
+
+                  <tr>
+                    <td>Lógica de programación</td>
+                    <td>
+                      <span>Carla Salazar</span></td>
+                    <td><span>Fomenta</span></td>
+                    <td><span>2011</span></td>
+                    <td><select name="" id="">
+                        <option value="">Programación</option>
+                        <option value="">Ingeniería de software</option>
+                        <option value="">Base de datos</option>
+                        <option value="">Tecnología de la información</option>
+                    </select></td>
+                <td> <button>Agregar</button></td>
+                    <td><button>Cancelar</button></td>      
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+            </div>
+
+         </main>
+         <footer class="footer">
+            <p>Educación en movimiento 📚</p>
+        </footer> 
+        <script src="scripts/buscarLibros.js"></script>
+</body>
+</html>
