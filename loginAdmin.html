@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    <div class="container" id="container">
+ 
+
+        <div class="form-container sign-in-container">
+            <form action="#" method="post">
+                <h1>Iniciar sesión </h1>
+                <div class="social-container">
+                      <!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>  -->
+                </div>
+                <!-- <span>or use your account</span> -->
+                <input type="email" placeholder="Email" id="usuario" value="">
+                <input type="password" placeholder="Contraseña" id="password" value="">
+                <a href="restablecerPass.html" style="color: #333;">¿Olvidaste tu contraseña?</a>
+                 <button class="ghost" id="signIn" onclick="ingreso();" style="background-color: #384B70; "><a href="homeAdmin.html"> Iniciar sesión</a></button>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                
+                <div class="overlay-panel overlay-right" style="background-color: #384B70; ">
+                    <!-- <h1>Administración</h1> -->
+                    <p style="font-size: 1.5em; font-weight: 600; color: aliceblue;">Administración</p>
+                    <!-- <button class="ghost" id="signUp"><a href="nuevoUsuario.html">Registrarme</a> </button>  -->
+                </div> 
+            </div>
+        </div> 
+        
+    </div>
+
+</main>
+
+
+<script src="scripts/login.js" ></script>
+</body>
+</html>

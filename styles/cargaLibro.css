@@ -9,7 +9,7 @@ table {
   border-collapse: collapse;
 }
 th {
-  background-color: #d2c2b0;
+  background-color: #384B70;;
   color: #fff;
 }
 th, td {
@@ -76,8 +76,8 @@ form {
       outline: none;
   }
   input[type=search] {
-      -webkit-appearance: textfield;
-      -webkit-box-sizing: content-box;
+      /* -webkit-appearance: textfield;
+      -webkit-box-sizing: content-box; */
       font-family: inherit;
       font-size: 100%;
   }
@@ -131,5 +131,23 @@ form {
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
 	margin-top: 1em;
+
+  }
+
+  .btn-grilla-a{
+    cursor: pointer;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    background-color:#d2c2b0 ;
+
+  }
+  .btn-grilla-c{
+    cursor: pointer;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    background-color:#413c38;
+    color: white ;
   }
   
